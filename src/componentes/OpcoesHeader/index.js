@@ -22,7 +22,7 @@ function OpcoesHeader(){
     return(
         <OpcoesContainer>
           {textoOpcoes.map((texto) => (
-            <Opcao ><p>{texto}</p></Opcao >
+            <Opcao  key={texto} ><p>{texto}</p></Opcao >
           ))}
         </OpcoesContainer>
     )
