@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+  <p align=center>
+    <image width="50" heigth="50" src='https://github.com/Jheimys/Alura-books/assets/80724830/ba5c7d69-282b-42dd-97bd-ef6eed47b0b7'>
+    <h1 align=center> Alura Books </h1>
+  </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome!👋
 
-## Available Scripts
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Jheimys/Electronic_battery/blob/master/LICENCE)
+![NPM](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2FJheimys%2FOrgano_II%2Fedit%2Fmaster%2FREADME.m)
 
-In the project directory, you can run:
+Thanks for visiting your feedback is really appreciated and will help me to improve my codes.
 
-### `npm start`
+Hope you enjoy it!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Project description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project with an emphasis on web development using various JavaScript frameworks. The main objective is to apply my knowledge of React with JavaScript by implementing styled components.
 
-### `npm test`
+  <p align=center>
+    <image width="670" heigth="570" src='https://github.com/Jheimys/assets/blob/master/aluraBooks.png'>
+  </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Project Status
 
-### `npm run build`
+<!-- :trophy: Finished ::trophy: -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> In progress
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Funcionalidades do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:hammer: `Funcionalidade`
 
-### `npm run eject`
+:heavy_check_mark: Search for Books
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Technologies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:heavy_check_mark: HTML
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+:heavy_check_mark:CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+:heavy_check_mark: JavaScript
 
-## Learn More
+:heavy_check_mark: React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Project access
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+:link: https://tin-dog-murex.vercel.app/
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![img](https://github.com/Jheimys.png?size=100)
 
-### Analyzing the Bundle Size
+James Bezerra Bassani
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+:globe_with_meridians: [Linkedin](https://www.linkedin.com/in/jheimys/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Have fun building!** 🚀

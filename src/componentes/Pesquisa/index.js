@@ -31,7 +31,7 @@ const Resultado = styled.div`
     align-items: center;
     margin-bottom: 20px;
     img {
-        width: 100px;
+        width: 80px;
     }
     
     cursor: pointer;
@@ -56,15 +56,20 @@ function Pesquisa() {
                 onBlur={(evento) => {
                     const textoDigitado = evento.target.value
                     const textoDigitadoAlterado = textoDigitado.toLocaleLowerCase()
-                    const resultadoPesquisa = livros.filter((livro) => (
-                        livro.nome.toLocaleLowerCase().includes(textoDigitadoAlterado))
-                    )
-                    setLivrosPesquisados(resultadoPesquisa)
+
+                    if(textoDigitadoAlterado !== ''){
+                        const resultadoPesquisa = livros.filter((livro) => (
+                            livro.nome.toLocaleLowerCase().includes(textoDigitadoAlterado))
+                        )
+                        setLivrosPesquisados(resultadoPesquisa)
+                    } else {
+                        setLivrosPesquisados([])
+                    }
                 }}
             />
 
            {livrosPesquisados.map(livro => (
-            <Resultado>
+            <Resultado key={livro.nome}>
                 <img src={livro.src} alt={livro.nome}/>
                 <p>{livro.nome}</p>
             </Resultado>
