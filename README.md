@@ -46,7 +46,7 @@ Project with an emphasis on web development using various JavaScript frameworks.
 
 # Project access
 
-:link: https://tin-dog-murex.vercel.app/
+:link: https://alura-books-jheimys.vercel.app/
 
 ## Author
 
