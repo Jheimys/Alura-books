@@ -26,11 +26,13 @@ Project with an emphasis on web development using various JavaScript frameworks.
 
 > In progress
 
-# Funcionalidades do projeto
+# Project Features
 
 :hammer: `Funcionalidade`
 
-:heavy_check_mark: Search for Books
+ <p align=center>
+    <image width="670" heigth="570" src='https://github.com/Jheimys/assets/blob/master/alura-books.gif'>
+  </p>
 
 # Technologies:
 
