@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const OpcoesContainer = styled.ul`
@@ -16,13 +17,15 @@ const Opcao = styled.li`
   cursor: pointer;
 `
 
-const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
+const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'ESTANTE']
 
 function OpcoesHeader(){
     return(
         <OpcoesContainer>
           {textoOpcoes.map((texto) => (
-            <Opcao  key={texto} ><p>{texto}</p></Opcao >
+           <Link to={`/${texto.toLocaleLowerCase()}`}>
+              <Opcao  key={texto} ><p>{texto}</p></Opcao >
+            </Link> 
           ))}
         </OpcoesContainer>
     )
